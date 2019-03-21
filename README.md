@@ -1,4 +1,4 @@
-## Exercice de simulation de l'évolution du taux de glycémie chez un patient diabetique de type 1
+## Exercice de simulation de l'évolution du taux de glycémie chez un patient diabetique de type 1 au cours d"une journée.
 
 
 Objectifs :
