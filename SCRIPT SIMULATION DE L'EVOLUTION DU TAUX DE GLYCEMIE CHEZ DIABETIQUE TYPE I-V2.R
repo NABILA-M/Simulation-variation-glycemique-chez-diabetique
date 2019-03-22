@@ -3,7 +3,7 @@
 
 
 ###########################################################
-##### 	Création du df #####
+################## 	Création du df ########################
 ###########################################################
 
 # Après une recherche auprès de plusieurs sources (articles de recherche, sites institutionnels, cf README), j'ai fais en sorte de définir des valeurs qui simulent l'évolution du taux de glycémie chez un diabétique de type 1 au cours d'une journée.
@@ -17,7 +17,7 @@ glycemia <- c(39,38,35,36,40,59,99,102,122,114,98,88,56,57,66,188,190,189,188,16
 df <- data.frame(time=time , glycemia=glycemia)
 
 ###########################################################
-##### 	Les plots 		#####
+####################	Les plots 		##########################
 ###########################################################
 
 # Créer le cadre du graphique
@@ -83,7 +83,11 @@ ggplotly(p.evolution_glycemie)
 
 ## --------------------------------------
 
-## Plot1. Simuler une hypoglycémie sévère.
+
+###########################################################
+###### Plot1. Simuler une hypoglycémie sévère #############
+###########################################################
+
 
 # Identification d'un évènement d'hypoglycémie sévère
 
@@ -111,7 +115,9 @@ ggplotly(hypoglycemie_severe)
 
 ## --------------------------------------
 
-## Plot2. Simuler une hyperglycémie prolongée (>2h).
+###########################################################
+###### Plot2. Simuler une hyperglycémie prolongée(>2h)#####
+###########################################################
 
 # Je simule une hyperglycémie de plus de 2h.
 
@@ -194,7 +200,9 @@ ggplotly(hyperglycemie_prolongee)
 
 ## -----------------------------------------
 
-## Plot3. Visualiser les repas pris au cours de la journée.
+###########################################################
+### Plot3.Visualiser les repas au cours de la journée)#####
+###########################################################
 
 
 # col time
@@ -274,7 +282,10 @@ visualisation_des_repas_dans_la_journee
 
 ## -----------------------------------------
 
-## Plot4. Visualiser les injections d'insuline.
+###########################################################
+####### Plot4. Visualiser les injections d'insuline #######
+###########################################################
+
 
 # Visualisation des "injections rapides"
 
