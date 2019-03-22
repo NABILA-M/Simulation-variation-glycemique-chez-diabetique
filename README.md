@@ -1,4 +1,4 @@
-![alt text](https://github.com/NABILA-M/Simulation-variation-glycemique-chez-diabetique/blob/master/World_Diabetes_Day_logo.svg.png"Logo Title Text 1")
+![alt text](https://github.com/NABILA-M/Simulation-variation-glycemique-chez-diabetique/blob/master/World_Diabetes_Day_logo.svg.png")
 
 ## Exercice de simulation de l'évolution du taux de glycémie chez un patient diabetique de type 1 au cours d"une journée.
 
