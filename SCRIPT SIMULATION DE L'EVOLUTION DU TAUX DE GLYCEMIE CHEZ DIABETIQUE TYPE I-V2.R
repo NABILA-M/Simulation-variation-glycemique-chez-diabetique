@@ -81,6 +81,7 @@ theme(legend.position="right")
 
 ggplotly(p.evolution_glycemie)
 
+## --------------------------------------
 
 ## Plot1. Simuler une hypoglycémie sévère.
 
